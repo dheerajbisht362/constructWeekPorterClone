@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   
   </head>
 
@@ -54,6 +55,31 @@
 
 
                 <div class="navbar-secondlinks">
+
+                  <!-- popup start -->
+                  <a class="link1" href="#support" onclick="openForm()">Login</a>
+                  <div class="overlayMask"></div>
+                  
+                    <div class="form-popup" id="myForm">
+                      <div id="loginModel" class="modalP" style="display: block;" onclick="openForm()">
+                      <form  class="form-container">
+                        <button class="cross" onclick="closeForm()">X</button>
+                        <h3 class="formHead"> Customer Login </h3>
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+
+                        <!-- <label for="num"><b>Mobile</b></label>
+                        <input type="text" placeholder="Mobile Number" name="num" required> -->
+                    
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                    
+                        <button type="submit" class="btn">Login</button>
+                        
+                      </form>
+                    </div>
+                  </div>
+                  <!-- popup end -->
 
 
                   <a class="link1" href="#support">Support</a>
@@ -615,4 +641,5 @@
 </html>
 
 
-<script src="faqPage.js"></script>
+ <script src="login.js"></script> 
+

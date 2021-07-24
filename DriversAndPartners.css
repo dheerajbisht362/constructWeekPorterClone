@@ -86,7 +86,7 @@
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
   background-color: white;
   width: 100%;
-  z-index: -1;
+  z-index: 1000;
 }
 
 .navbar-content {
@@ -141,6 +141,25 @@
   background-color: rgb(230, 158, 26);
   color: blue;
 }
+
+
+/* button login */
+
+.btnlogin button {
+  height: 35px;
+  margin: 5px;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(30, 206, 230);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btnlogin button:hover {
+  background-color: red;
+  color: white;
+}
+
 
 /* body styling */
 body {

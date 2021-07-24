@@ -109,7 +109,7 @@
 }
 .link {
   padding: 0 15px;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 600;
   color: #212121;
   text-decoration: none;
@@ -134,6 +134,7 @@
   text-decoration: none;
   z-index: 1003;
   line-height: 40px;
+  cursor: pointer;
 }
 
 .navbar-links a:hover {
@@ -158,6 +159,7 @@
   background-color: red;
   color: white;
 }
+
 
 /* body styling */
 body {

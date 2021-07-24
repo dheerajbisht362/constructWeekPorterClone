@@ -189,12 +189,10 @@
 }
 input {
   border: 1px solid transparent;
-  background-color: #f1f1f1;
   padding: 10px;
   font-size: 16px;
 }
 input[type="text"] {
-  background-color: #f1f1f1;
   width: 100%;
 }
 input[type="submit"] {
@@ -630,7 +628,7 @@ input[type="submit"] {
   text-decoration: none;
 }
 .question > p + div {
-  font-size: 14px;
+  font-size: 16px;
 }
 .question > p {
   border-top: solid 1px #e2e2e2;

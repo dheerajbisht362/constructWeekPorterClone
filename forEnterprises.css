@@ -104,11 +104,9 @@ body {
 }
 
 .navbar {
-  position: absolute;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
   background-color: white;
   width: 100%;
-  z-index: -1;
 }
 
 .navbar-content {
@@ -135,7 +133,7 @@ body {
   font-weight: 600;
   color: #212121;
   text-decoration: none;
-  z-index: 1003;
+  z-index: 5;
   line-height: 40px;
 }
 
@@ -145,7 +143,7 @@ body {
 
 .navbar-secondlinks {
   display: flex;
-  margin-left: 650px;
+  margin-left: 40%;
 }
 
 .link1 {
@@ -170,8 +168,6 @@ body {
 .deskforEntContainer {
   padding-top: 2rem;
   margin: auto;
-  width: 97.6%;
-  max-width: 1500px;
   background-color: #fff;
   box-shadow: 5px 0 5px -5px rgb(0 0 0 / 50%), -5px 0 5px -5px rgb(0 0 0 / 50%);
   position: relative;
@@ -183,7 +179,6 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  height: 20rem;
   z-index: 0;
 }
 .deskbanner {
@@ -213,7 +208,7 @@ body {
 
 .form-text {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 75%;
   width: 280px;
   background: #fedf00;

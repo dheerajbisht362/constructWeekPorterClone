@@ -16,13 +16,14 @@
             <div><img src="images/truckFEN.jpg"  /></div>
             <div class="userIn" style="float:right">
                 <i class="fas fa-user fa-2x"></i>
-                <div style="display:inline" id="nameUser">DHEERAJ BISHT<div class="dropdown">
+                <div style="display:inline" id="nameUser"></div>
+                <div class="dropdown">
                     <button class="dropbtn">>></button>
                     <div class="dropdown-content">
-                        <a href="#">Email</a>
+                        <a href="#"id="userEmail"></a>
                         <a href="home.html">Sign out</a>
                     </div>
-                </div></div>
+                </div>
             </div>
         </div>
         <div class="headBottom">
@@ -124,4 +125,12 @@
         if (document.getElementById('money').value== "credit") putCredit();
         
     }
+    function userName() {
+            var data = JSON.parse(localStorage.getItem("currentuser"))
+            console.log(data[2])
+
+            document.getElementById("nameUser").innerText = data[2]
+            document.getElementById("userEmail").innerText = data[0]
+        }
+        userName()
 </script>

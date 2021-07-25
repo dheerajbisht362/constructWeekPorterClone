@@ -14,12 +14,34 @@
   </head>
 
   <body>
+    <div class="form-popup" id="myForm">
+      <div style="display:flex;">
+        <div class="extra10">
+         <div><i class="fas fa-laptop"></i>Manage your trips</div>
+         <div><i class="fas fa-search-location"></i>Track your expenses</div> 
+         <div><i class="fas fa-file-invoice"></i>Generate Invoice</div>
+        </div>
+        <div>
+          <form class="form-container" id="loginData">
+            <button class="cross" onclick="closeForm()">X</button>
+            <h3 class="formHead"> Customer Login </h3>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email or mobile" id="email" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" id="psw" required>
+          
+            <button type="submit" onclick=" validateMyForm()" class="btn">NEXT</button>
+          
+          </form>
+        </div>
+        </div>
+    </div>
     <div id="main-container">
-    <div class="header">
-      <div class="header-wrapper">
+      <div class="header">
+        <div class="header-wrapper">
         <div class="header-container">
           <div class="logo-container">
-            <a class="link" href="#home">
+            <a class="link" href="home.html">
               <div><img src="Images\1.png" alt="" class="logoicon"></div>
             </a>
 
@@ -30,7 +52,7 @@
 
           <div class="right-side-header">
             <div class="drive-contact">
-              <a class="join-drive" href="#driverpartners">
+              <a class="join-drive" href="DriversAndPartners.html">
                 <img class="driver-logo" src="Images/2.png" alt="driver" />
               </a>
               <div class="contactnumber">
@@ -45,10 +67,10 @@
           <div class="navbar-content">
             <div class="navarcontainer">
               <div class="navbar-links">
-                <a class="link" href="#home">CITY TEMPO</a>
+                <a class="link" href="home.html">CITY TEMPO</a>
                 <a class="link" href="packer&Movers.html">PACKERS & MOVERS</a>
-                <a class="link" href="#driverpartners">DRIVER PARTNERS</a>
-                <a class="link" href="#forEnterprises">FOR ENTERPRISE</a>
+                <a class="link" href="DriversAndPartners.html">DRIVER PARTNERS</a>
+                <a class="link" href="forEnterprises.html">FOR ENTERPRISE</a>
              
                 
                 
@@ -59,93 +81,34 @@
                   <a class="link1" >Track Order</a>
                   </a>  
                 </div>
-                  <!-- popup start -->
-                  <!-- <a class="link1" href="#support" onclick="openForm()">Login</a>
-                  <div class="overlayMask"></div>
-                  
-                    <div class="form-popup" id="myForm pop10" >
-                      <div id="loginModel" class="modalP" style="display: block;" onclick="openForm()">
-                      
-                    </div>
-                  </div> -->
-                  <!-- popup end -->
-                  <div class="form-popup" id="myForm">
-                    <div style="display:flex;">
-                      <div class="extra10">
-                       <div><i class="fas fa-laptop"></i>Manage your trips</div>
-                       <div><i class="fas fa-search-location"></i>Track your expenses</div> 
-                       <div><i class="fas fa-file-invoice"></i>Generate Invoice</div>
-                      </div>
-                      <div>
-                        <form class="form-container" id="loginData">
-                          <button class="cross" onclick="closeForm()">X</button>
-                          <h3 class="formHead"> Customer Login </h3>
-                          <label for="email"><b>Email</b></label>
-                          <input type="text" placeholder="Enter Email or mobile" id="email" required>
-                          <label for="psw"><b>Password</b></label>
-                          <input type="password" placeholder="Enter Password" id="psw" required>
-                        
-                          <button type="submit" onclick="redirect(e)" class="btn">NEXT</button>
-                        
-                        </form>
-                      </div>
-                      </div>
-                  </div>
-                 
-                  
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-
-
-
-
-
-
-
-
-    
-      
-          <div id="banner-container">
-            <!-- banner image -->
-           <div>
-           
-            
-      <img class="banner-img" src="Images\dfa3321.jpg" alt="banner" >
-       
-      
-              <!-- intro text on banner starts -->
-              <h1 class="heading">
-           
-                  <div class="deskbannerTitle">Attach mini trucks or bike
-      
-                      <h2 class="sub" >Start Earning Immediately</h2>
-                      <p class="sub" style="margin-top: 10px; font-size: 16px; color:rgb(128,128,145) ;">Download the partner app and register</p>
-                    <div>
-                    <a href="https://play.google.com/store/apps/details?id=com.theporter.android.driverapp&referrer=web_tracking_id%253D48b17d17b10c30f06830cac21d69e36b">
-                      <img src="Images\3.png" alt="" height="50px" width="280px" style="margin-left: 1100px; cursor: pointer;">
-                    </a>
-                    </div>
-                  </div>
-              </h1>
-             
-              <div class="sub-sub-heading">
-               Earn money by delivering goods, courier and packages. Get a part or full time delivery job
-              </div>
-              <!-- banner text end -->
-              
-          
-        
-      
-      
-           
-          </div>
       </div>
-          <form class="form-text" style="background-color: rgb(255,222,0); border-style:groove; margin-top: 5px; border-radius: 4px;">
+      <div id="banner-container">
+            <!-- banner image -->
+      <div>
+      <img class="banner-img" src="Images\dfa3321.jpg" alt="banner" >
+            <!-- intro text on banner starts -->
+        <h1 class="heading">
+          <div class="deskbannerTitle">Attach mini trucks or bike
+            <h2 class="sub" >Start Earning Immediately</h2>
+            <p class="sub" style="margin-top: 10px; font-size: 16px; color:rgb(128,128,145) ;">Download the partner app and register</p>
+            <div>
+                <a href="https://play.google.com/store/apps/details?id=com.theporter.android.driverapp&referrer=web_tracking_id%253D48b17d17b10c30f06830cac21d69e36b">
+                    <img src="Images\3.png" alt="" height="50px" width="280px" style="margin-left: 1100px; cursor: pointer;">
+                </a>
+            </div>
+          </div>
+        </h1>
+        <div class="sub-sub-heading">Earn money by delivering goods, courier and packages. Get a part or full time delivery job
+        </div>
+              <!-- banner text end -->
+      </div>
+      </div>
+        <form class="form-text" style="background-color: rgb(255,222,0); border-style:groove; margin-top: 5px; border-radius: 4px;">
             <div class="form-heading">Attach Vehicle Now</div>
            
           
@@ -217,23 +180,14 @@
             <div id="btn">
               <button onclick="sumbit">REGISTER</button>
             </div>
-          </form>
-      
-      
+        </form>
           <!-- intro text on banner end -->
       
           <!-- image text detail starts -->
-        
-          <div class="banner-footer">
-      
-            <h2 class="heading2">
-             PORTER ADVANTAGE
-            </h2>
-      <div><input type="button" class="btn_2"></div>
-      
-      
-      
-            <div class="imagebanner">
+      <div class="banner-footer">
+        <h2 class="heading2">PORTER ADVANTAGE</h2>
+        <div><input type="button" class="btn_2"></div>
+        <div class="imagebanner">
               <div class="features">
                 <img class="img" src="Images\5.png" alt="budget">
                 <div class="title">Regular Trips</div>
@@ -252,38 +206,22 @@
                 <div class="sub-title">Be assured to receive all payments on  <br>  time & get the best in class support,  <br>  when you attach mini truck with  <br>  Porter.</div>
               </div>
       
-            </div>
-      
-      
+        </div>
           <!-- image text detail ends -->
-      
-      
           <!--  first skew and content starts 
        -->
-      
-          <div class="container-info">
-      
-              <div class="info-title">
-                  <div class="title2" style="color: black;">MAKING YOUR LIFE EASY</div>
-                  <div class="barline";"></div>
-             
-          
-                <div class="info-wrapper">
-      
-            <div class="skew" style="margin-top: 50px;">
-          
-              <div class="image_A"> <img src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/website_revamp/partners/driver_experience-87051334459376357b6125e2b776e61175461d3db60f2a5fdad972d51839137e.gif" alt="" height="340px" width="620px" style="border-radius: 10px;">
-          
-              </div>
-                 
-             
-              <div class="cont_1">
-                  
+        <div class="container-info">
+          <div class="info-title">
+            <div class="title2" style="color: black;">MAKING YOUR LIFE EASY</div>
+            <div class="barline";"></div>
+            <div class="info-wrapper">
+              <div class="skew" style="margin-top: 50px;">
+                <div class="image_A"> <img src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/website_revamp/partners/driver_experience-87051334459376357b6125e2b776e61175461d3db60f2a5fdad972d51839137e.gif" alt="" height="340px" width="620px" style="border-radius: 10px;">
+                </div>
+                <div class="cont_1">
                   <div class="font">Attach your two wheeler or commercial vehicle   </div>
-            
                   <div class="font_2">If you got a 2 wheeler, or a tata ace commercial vehicle, you are good to go! With <br>  Porter, get a delivery job and deliver goods, packages, and courier.</div> 
-             
-         <div style="margin-left: 870px; margin-top: 30px; color: whitesmoke;">No more waiting on the stand</div>
+                  <div style="margin-left: 870px; margin-top: 30px; color: whitesmoke;">No more waiting on the stand</div>
       
                   <div class="font_2">Attach tata ace with Porter to have a steady stream of trips with minimum assured<br>income and added incentives, so that there is no waiting and idle time at the stand!</div> 
              
@@ -296,42 +234,20 @@
       
                   <div class="font_2">With our GPS-based navigation you can drive anywhere across your city without <br> worrying about the directions. Get real-time navigation assistance on the go!
       
-                  </div> 
-                        
-             
-              
-              
-      </div>
-      </div>
-       </div>
-      
-      
-       
-      
-      
+                </div> 
+              </div>
+            </div>
+          </div>
           <!-- first skew and content ends  -->
-      
-          
-      
-      
           <div>
             <div class="container-info2">
               <div class="skew2" style="margin-top: -145px; margin-left: -80px;"></div>       
-      
-              
             </div>
-      
           </div>
-      
-      
           <div class="banner-footer"  style="margin-top: 400px;">
-      
-              <h2 class="heading_3" style="margin-left: 50px; font-size: 25px;">
-               ADDITIONAL BENEFITS
-              </h2>
-        <div><input type="button" class="btn_2" style="margin-left: 50px; margin-top:-80px;"></div>
-          
-          <div class="imagebanner" style="margin-left: 20px; margin-top: 40px;">
+            <h2 class="heading_3" style="margin-left: 50px; font-size: 25px;">ADDITIONAL BENEFITS</h2>
+            <div><input type="button" class="btn_2" style="margin-left: 50px; margin-top:-80px;"></div>
+            <div class="imagebanner" style="margin-left: 20px; margin-top: 40px;">
               <div class="features">
                 <img class="img" src="Images\8.png" alt="budget">
                 <div class="title">Health Care Assistance</div>
@@ -340,8 +256,8 @@
       
               <div class="features" style="margin-left: -20px;">
                 <img class="img" id="box-img" src="Images\9.png" alt="box">
-                <div class="title">Discount on Insurance</div>
-                <div class="sub-title">Save money with reduced annual <br> maintenance and insurance costs on   <br> your vehicle.</div>
+                  <div class="title">Discount on Insurance</div>
+                  <div class="sub-title">Save money with reduced annual <br> maintenance and insurance costs on   <br> your vehicle.</div>
               </div>
       
               <div class="features" style="margin-left: -20px;">
@@ -354,31 +270,20 @@
                   <img class="img" src="Images\11.png" alt="budget">
                   <div class="title">Discount on Vehicle Purchase</div>
                   <div class="sub-title">Get major discounts on purchase of <br> new vehicles. Add to your fleet and <br> grow your business!</div>
-                </div>
+              </div>
       
             </div>
       
-        </div>
+          </div>
       
-        <div>
-        
-          <div class="skew_3"></div>   
-      
-          <div class="container-info2">
-      
-        
-         <div>
-        
-          <input type="button" class="btn_2" style="margin-left: 50px; margin-top:160px;">
-        
-        
-          <h2 class="heading_3" style="margin-left: 50px ; font-size: 25px; z-index: 5000;opacity: 100; margin-top: -60px; color: rgb(6, 13, 104);">
-            CHANGING LIFE OF PEOPLE
-           </h2> 
-      
-        </div>
-      
-        <div class="deskGrowing">
+          <div>
+            <div class="skew_3"></div>   
+            <div class="container-info2">
+              <div>
+                <input type="button" class="btn_2" style="margin-left: 50px; margin-top:160px;">
+                <h2 class="heading_3" style="margin-left: 50px ; font-size: 25px; z-index: 5000;opacity: 100; margin-top: -60px; color: rgb(6, 13, 104);">CHANGING LIFE OF PEOPLE</h2> 
+              </div>
+              <div class="deskGrowing">
       
           
       
@@ -451,12 +356,8 @@
         
     </div>
     
-    
-    
-    
-    
-  </div>
-
+    </div>
+      </div>
       <div class="faqmain">
         <div class="ques"><p>FREQUENTLY ASKED QUESTIONS</p>
          <input type="button" class="btn_2" style="margin-left: 300px;">
@@ -575,15 +476,7 @@
 
             </div>
         </div>
-    </div>
-
-
-
-
-    
-  
-  
-  
+      </div>
       <div class="footer">
         <div class="footerFirst">
             <div class="footerSec" style="min-width: 305px">
@@ -637,11 +530,9 @@
                 2021 SmartShift Logistics Solutions Pvt. Ltd. All rights reserved</p>
         </div>
   
-  
-
-
-    
-  </body>
+      </div>
+    </div>
+   </body>
 </html>
 
 

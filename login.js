@@ -2,10 +2,12 @@ var logInData = [["dheerajbisht362@gmail.com", "123456","Dheeraj Bisht"]]
 localStorage.setItem("logData", JSON.stringify(logInData))
 
 function openForm() {
-                document.getElementById("myForm").style.display = "block"
+    document.getElementById("myForm").style.display = "block"
+    document.getElementById("main-container").classList.add("blur");
             }
 function closeForm() {
-                document.getElementById("myForm").style.display = "none";
+    document.getElementById("myForm").style.display = "none";
+    document.getElementById("main-container").classList.remove("blur");
 }
 var last_question
 
@@ -32,11 +34,9 @@ function redirect() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("psw").value;
     var data = JSON.parse(localStorage.getItem("logData"))
-    
-    console.log(data[0])
     for (var i = 0; i < data.length; i++) {
         if (data[i][0] == email && data[i][1] == password) {
-            console.log(1)
+            // console.log(1)
             localStorage.setItem("currentuser", JSON.stringify(data[i]))
             return true
         }
@@ -44,8 +44,9 @@ function redirect() {
     return false
 }
 function validateMyForm()
-{
+{   console.log(1)
     if (redirect()) {
+        // console.log(1)
         window.location.href = "userOrderHistory.html"
     }
     else {

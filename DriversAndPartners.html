@@ -59,17 +59,7 @@
                   <a class="link1" >Track Order</a>
                   </a>  
                 </div>
-                  <!-- popup start -->
-                  <!-- <a class="link1" href="#support" onclick="openForm()">Login</a>
-                  <div class="overlayMask"></div>
-                  
-                    <div class="form-popup" id="myForm pop10" >
-                      <div id="loginModel" class="modalP" style="display: block;" onclick="openForm()">
-                      
-                    </div>
-                  </div> -->
-                  <!-- popup end -->
-                  <div class="form-popup" id="myForm">
+                  <div class="form-popup" id="myForm" action="userOrderHistory.html">
                     <div style="display:flex;">
                       <div class="extra10">
                        <div><i class="fas fa-laptop"></i>Manage your trips</div>
@@ -77,7 +67,7 @@
                        <div><i class="fas fa-file-invoice"></i>Generate Invoice</div>
                       </div>
                       <div>
-                        <form class="form-container" id="loginData">
+                        <form class="form-container" id="loginData" onsubmit="return validateMyForm();">
                           <button class="cross" onclick="closeForm()">X</button>
                           <h3 class="formHead"> Customer Login </h3>
                           <label for="email"><b>Email</b></label>
@@ -85,7 +75,7 @@
                           <label for="psw"><b>Password</b></label>
                           <input type="password" placeholder="Enter Password" id="psw" required>
                         
-                          <button type="submit" onclick="redirect(e)" class="btn">NEXT</button>
+                          <input type="submit" value="NEXT"class="btn"></input>
                         
                         </form>
                       </div>

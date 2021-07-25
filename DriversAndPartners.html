@@ -9,9 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajx/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/133eda6a97.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -51,44 +50,39 @@
                 <a class="link" href="#driverpartners">DRIVER PARTNERS</a>
                 <a class="link" href="#forEnterprises">FOR ENTERPRISE</a>
              
-
-
-
+                
+                
+                
                 <div class="navbar-secondlinks">
-
-                  <!-- popup start -->
-                  <a class="link1" href="#support" onclick="openForm()">Login</a>
-                  <div class="overlayMask"></div>
-                  
-                    <div class="form-popup" id="myForm">
-                      <div id="loginModel" class="modalP" style="display: block;" onclick="openForm()">
-                      <form  class="form-container">
-                        <button class="cross" onclick="closeForm()">X</button>
-                        <h3 class="formHead"> Customer Login </h3>
-                        <label for="email"><b>Email</b></label>
-                        <input type="text" placeholder="Enter Email" name="email" required>
-
-                        <!-- <label for="num"><b>Mobile</b></label>
-                        <input type="text" placeholder="Mobile Number" name="num" required> -->
-                    
-                        <label for="psw"><b>Password</b></label>
-                        <input type="password" placeholder="Enter Password" name="psw" required>
-                    
-                        <button type="submit" class="btn">Login</button>
-                        
-                      </form>
-                    </div>
-                  </div>
-                  <!-- popup end -->
-
-
+                  <button onclick="openForm()">Login</button>
                   <a class="link1" href="#support">Support</a>
-                  <a class="link1" href="#trackmore" style="cursor: pointer">
-                    <b>Track Order</b>
-                  </a>
+                  <a class="link1" >Track Order</a>
+                  </a>  
+                </div>
+                  <div class="form-popup" id="myForm" action="userOrderHistory.html">
+                    <div style="display:flex;">
+                      <div class="extra10">
+                       <div><i class="fas fa-laptop"></i>Manage your trips</div>
+                       <div><i class="fas fa-search-location"></i>Track your expenses</div> 
+                       <div><i class="fas fa-file-invoice"></i>Generate Invoice</div>
+                      </div>
+                      <div>
+                        <form class="form-container" id="loginData" onsubmit="return validateMyForm();">
+                          <button class="cross" onclick="closeForm()">X</button>
+                          <h3 class="formHead"> Customer Login </h3>
+                          <label for="email"><b>Email</b></label>
+                          <input type="text" placeholder="Enter Email or mobile" id="email" required>
+                          <label for="psw"><b>Password</b></label>
+                          <input type="password" placeholder="Enter Password" id="psw" required>
+                        
+                          <input type="submit" value="NEXT"class="btn"></input>
+                        
+                        </form>
+                      </div>
+                      </div>
+                  </div>
                  
                   
-                </div>
               </div>
             </div>
           </div>
@@ -445,12 +439,13 @@
         
       </div> 
         
-      </div>
-      
-      
-      
-
-
+    </div>
+    
+    
+    
+    
+    
+  </div>
 
       <div class="faqmain">
         <div class="ques"><p>FREQUENTLY ASKED QUESTIONS</p>
@@ -575,65 +570,64 @@
 
 
 
-
-
-    <div class="footer">
-      <div class="footerFirst">
-          <div class="footerSec" style="min-width: 305px">
-              <div><a href="home.html"><img src="images/footerLogo.png" /></a></div>
-              <div style="margin: 20px 0;">CIN: U74999MH2014PTC306120</div>
-              <div style="margin-top:35px">
-                  <p class="footerTitle socialGap">GO SOCIAL</p><a><i class="fa fa-facebook fa-2x"></i></a><a><i
-                          class="fa fa-linkedin fa-2x"></i></a><a><i class="fa fa-twitter fa-2x"></i></a><a><i
-                          class="fa fa-youtube fa-2x"></i></a><a><i class="fa fa-instagram fa-2x"></i></a></a>
-              </div>
-          </div>
-          <div class="footerSec">
-              <p class="footerTitle">COMPANY</p>
-              <p>About Us</p>
-              <p>Offers</p>
-              <p>Careers</p>
-              <p>Blog</p>
-          </div>
-          <div class="footerSec">
-              <p class="footerTitle">SUPPORT</p>
-              <p>Help Centre</p>
-              <p>Privacy Policy</p>
-              <p>Terms of seervice</p>
-              <p>Insaurance FAQs</p>
-          </div>
-          <div class="footerSec">
-              <p class="footerTitle">DISCOVER PORTER</p>
-              <p>Trucks in Bangalore</p>
-              <p>Trucks in Mumbai</p>
-              <p>Trucks in Delhi NCR</p>
-              <p>Trucks in Chennai</p>
-              <p>Trucks in Hyderabad</p>
-              <p>Trucks in Ahmedabad</p>
-              <p>Trucks in Pune</p>
-              <p>Trucks in Surat</p>
-              <p>Trucks in Kolkata</p>
-              <p>Trucks in JAIPUR</p>
-              <p>Trucks in Lucknow</p>
-          </div>
-          <div class="footerSec">
-              <p class="footerTitle">BOOK A TRUCK</p>
-              <p>City Tempo</p>
-              <p>For Enterprise</p>
-              <p>Packers & Movers</p>
-          </div>
-      </div>
-      <div class="footerBottom">
-          <p style="float: left">Download our app</p> <img src="images/footerAppStore.jpg"
-              style="margin-left: 35px;" />
-          <p style="float:right">©
-              2021 SmartShift Logistics Solutions Pvt. Ltd. All rights reserved</p>
-      </div>
+    
   
-  </div>
-
-
-
+  
+  
+      <div class="footer">
+        <div class="footerFirst">
+            <div class="footerSec" style="min-width: 305px">
+                <div><a href="home.html"><img src="images/footerLogo.png" /></a></div>
+                <div style="margin: 20px 0;">CIN: U74999MH2014PTC306120</div>
+                <div style="margin-top:35px">
+                    <p class="footerTitle socialGap">GO SOCIAL</p><a><i class="fa fa-facebook fa-2x"></i></a><a><i
+                            class="fa fa-linkedin fa-2x"></i></a><a><i class="fa fa-twitter fa-2x"></i></a><a><i
+                            class="fa fa-youtube fa-2x"></i></a><a><i class="fa fa-instagram fa-2x"></i></a></a>
+                </div>
+            </div>
+            <div class="footerSec">
+                <p class="footerTitle">COMPANY</p>
+                <p>About Us</p>
+                <p>Offers</p>
+                <p>Careers</p>
+                <p>Blog</p>
+            </div>
+            <div class="footerSec">
+                <p class="footerTitle">SUPPORT</p>
+                <p>Help Centre</p>
+                <p>Privacy Policy</p>
+                <p>Terms of seervice</p>
+                <p>Insaurance FAQs</p>
+            </div>
+            <div class="footerSec">
+                <p class="footerTitle">DISCOVER PORTER</p>
+                <p>Trucks in Bangalore</p>
+                <p>Trucks in Mumbai</p>
+                <p>Trucks in Delhi NCR</p>
+                <p>Trucks in Chennai</p>
+                <p>Trucks in Hyderabad</p>
+                <p>Trucks in Ahmedabad</p>
+                <p>Trucks in Pune</p>
+                <p>Trucks in Surat</p>
+                <p>Trucks in Kolkata</p>
+                <p>Trucks in JAIPUR</p>
+                <p>Trucks in Lucknow</p>
+            </div>
+            <div class="footerSec">
+                <p class="footerTitle">BOOK A TRUCK</p>
+                <p>City Tempo</p>
+                <p>For Enterprise</p>
+                <p>Packers & Movers</p>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <p style="float: left">Download our app</p> <img src="images/footerAppStore.jpg"
+                style="margin-left: 35px;" />
+            <p style="float:right">©
+                2021 SmartShift Logistics Solutions Pvt. Ltd. All rights reserved</p>
+        </div>
+  
+  
 
 
     

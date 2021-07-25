@@ -574,6 +574,7 @@ body {
 .question > p > a {
   color: black;
   font-size: 18px;
+  text-decoration: none;
 }
 .question > p + div {
   font-size: 14px;

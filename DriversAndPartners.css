@@ -9,7 +9,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  z-index: 1000;
+  z-index: 3;
   height: 60px;
 }
 
@@ -86,7 +86,7 @@
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
   background-color: white;
   width: 100%;
-  z-index: 1000;
+  z-index: 10;
 }
 
 .navbar-content {
@@ -113,7 +113,7 @@
   font-weight: 600;
   color: #212121;
   text-decoration: none;
-  z-index: 1003;
+  z-index: 4;
   line-height: 40px;
 }
 
@@ -132,7 +132,7 @@
   font-weight: 600;
   color: #212121;
   text-decoration: none;
-  z-index: 1003;
+  z-index: 10;
   line-height: 40px;
 }
 
@@ -517,7 +517,7 @@ body {
   background-color: #fff;
   box-shadow: 0 0 6px 0 rgb(0 0 0 / 50%);
   justify-content: flex-end;
-  z-index: 100;
+  z-index: 10;
 }
 .para {
   font-size: 16px;
@@ -651,6 +651,14 @@ a > i {
   margin-top: 12px;
 }
 /* pop up form  */
+.blur {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px) !important;
+  filter: brightness(50%) !important;
+}
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
   background-color: #555;

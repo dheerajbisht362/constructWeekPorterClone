@@ -2,10 +2,12 @@ var logInData = [["dheerajbisht362@gmail.com", "123456","Dheeraj Bisht"]]
 localStorage.setItem("logData", JSON.stringify(logInData))
 
 function openForm() {
-                document.getElementById("myForm").style.display = "block"
+    document.getElementById("myForm").style.display = "block"
+    document.getElementById("main-container").classList.add("blur");
             }
 function closeForm() {
-                document.getElementById("myForm").style.display = "none";
+    document.getElementById("myForm").style.display = "none";
+    document.getElementById("main-container").classList.remove("blur");
 }
 var last_question
 

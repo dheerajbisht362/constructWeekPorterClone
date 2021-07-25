@@ -643,6 +643,10 @@ a > i {
   color: #3b3b3b;
   border-radius: 3px;
 }
+.border01 {
+  border: none;
+  background-color: #fff;
+}
 .footerBottom {
   margin-top: 12px;
 }

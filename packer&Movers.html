@@ -91,7 +91,7 @@
       </image>
     </div>
 
-    <form class="form-text">
+    <form class="form-text" id ="form01">
       <div class="form-heading">Get The Best Quote Now</div>
       <!-- <label for ="city"></label> -->
       <div id="fillup">
@@ -107,14 +107,22 @@
 
 
         <input type="text" id="name" class="form-control" placeholder="Ex. Amit" required>
-        <input type="text" id="contact" class="form-control" placeholder="+91 -" required>
+        <input type="number" id="contact" class="form-control" placeholder="Contact" required>
         <input type="text" id="moving-from" class="form-control" placeholder="Moving From" required>
         <input type="text" id="moving-to" class="form-control" placeholder="Moving to" required>
       </div>
       <div id="btn">
-        <button id="sumbit" onclick="sumbit">Procced</button>
+        <button id="sumbit" onclick="sumbitForm()">Procced</button>
       </div>
     </form>
+
+    <div class="popUp" id="hide01">
+      <p><img src="https://img.icons8.com/emoji/96/000000/folded-hands-emoji-1.png"/></p>
+      <p>Thank you for contacting us</p>
+      <p id="bold02">Porter</p>
+     
+      <p>We will get contact soon.</p>
+  </div>
 
 
     <div id="data"></div>

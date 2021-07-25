@@ -70,3 +70,12 @@ function toggleElement(id)
     }
     last_question= id;
 }
+
+function sumbitForm(){
+  document.getElementById("form01").style.display = "none"
+  document.getElementById("hide01").style.display = "block"
+  
+}
+document.getElementById("form01").addEventListener("submit", function (event) {
+      event.preventDefault()
+  });

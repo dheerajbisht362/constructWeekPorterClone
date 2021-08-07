@@ -70,15 +70,14 @@ Home page of Porter:
 - click on the vehical of your choice to get detailed information
 - image will change color on clicking 
 
-![App Screenshot](./images/0002.jpg)
-<img src="./images/0002.jpg" alt="My cool logo"/>
+![App Screenshot](https://github.com/dheerajbisht362/constructWeekPorterClone/blob/master/images/0002.JPG)
 
 Home/Estimate page of Porter:
 - Once user clicks on Get estimate button will get redirected to this page
 - you can see your pickup and Drop location (whatever user insert in the form)
 - To get Porter app for adroid click on playStore image
 
-![App Screenshot](./images/00014.jpg)
+![App Screenshot](https://github.com/dheerajbisht362/constructWeekPorterClone/blob/master/images/00014.JPG)
 
 Packers & Movers page of Porter:
 - Fully Functional Navigation Bar
@@ -86,37 +85,37 @@ Packers & Movers page of Porter:
 - customer friendly page
 - simple form to get quote
 
-![App Screenshot](./images/0005.jpg)
+![App Screenshot](https://github.com/dheerajbisht362/constructWeekPorterClone/blob/master/images/0005.JPG)
 
 Packers & Movers page of Porter:
 - Some detail Information to read
 
-![App Screenshot](./images/0006.jpg)
+![App Screenshot](https://github.com/dheerajbisht362/constructWeekPorterClone/blob/master/images/0006.JPG)
 
 Packers & Movers page of Porter:
 - Some Happy Customer Reviews
 
-![App Screenshot](./images/0007.jpg)
+![App Screenshot](https://github.com/dheerajbisht362/constructWeekPorterClone/blob/master/images/0007.JPG)
 
 Driver & Partners page of Porter:
 - Fully Functional Navigation Bar
 - Header (common on all pages)
 - Driver Partners page
 
-![App Screenshot](./images/0008.jpg)
+![App Screenshot](https://github.com/dheerajbisht362/constructWeekPorterClone/blob/master/images/0008.JPG)
 
 Driver & Partners page of Porter:
 - A simpl and user-friendly Login pop-up
 - Demo Id: dheerajbisht362@gmail.com
 - Demo Password: 123456
 
-![App Screenshot](./images/00011.jpg)
+![App Screenshot](https://github.com/dheerajbisht362/constructWeekPorterClone/blob/master/images/00011.JPG)
 
 User Order History page of Porter:
 - Simple user order history page 
 - User can Filter according to the status of order
 
-![App Screenshot](./images/00012.jpg)
+![App Screenshot](https://github.com/dheerajbisht362/constructWeekPorterClone/blob/master/images/00012.JPG)
 
 User Wallet page of Porter:
 - Simple user order Wallet page 
@@ -124,7 +123,7 @@ User Wallet page of Porter:
 - one can Filter transactions (ex: debit/credit/all transactions)
 - one can logout after cclicking on user icon and selecting "signout" option
 
-![App Screenshot](./images/00013.jpg)
+![App Screenshot](https://github.com/dheerajbisht362/constructWeekPorterClone/blob/master/images/00013.JPG)
 
 Driver & Partners page of Porter:
 - Some eyecatching informative web sections for good customer enggaging
@@ -136,13 +135,13 @@ For Enterprises page of Porter:
 - Header (common on all pages)
 - For Enterprises page
 
-![App Screenshot](./images/00010.jpg)
+![App Screenshot](https://github.com/dheerajbisht362/constructWeekPorterClone/blob/master/images/00010.JPG)
 
 Footer for Porter:
 - Footer (common on all pages)
   
 
-![App Screenshot](./images/0004.jpg)
+![App Screenshot](https://github.com/dheerajbisht362/constructWeekPorterClone/blob/master/images/0004.JPG)
 
 
 ## Thank You!

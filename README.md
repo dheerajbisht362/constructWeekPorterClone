@@ -1,19 +1,163 @@
-# constructWeek Porter.in  Clone
-This is the clone of website which we have created during our construct week project
+# Clone of Porter.in
 
-## Submarry of the pages which we created
+Hello there, as a student of Masai School we have construct week wehere we can utilize the knowledge we gain throughout the particular unit.
 
-**Main landing pages**
-* home.html
-* packer&Movers.html
-* DriversAndPartners.html
-* forEnterprises.html
+After compilation of unitII we were having knowledge of HTML, CSS and JavaScript using that we as a team of four have created a clone of (porter.in).
 
-**page afer filling form on home.html**
-* estimate.html
+This site is a basically for the one who wants to shift there goods from place to another this is primarly a mobile app that is why on website it has some limitted functionalities.
 
-**Pages user can see after log in on DriverAndPartners**
-* userOrderHistory.html
-* packer&Movers.html
+## Acknowledgements
 
-Orignal website [Porter.in](https://porter.in/)
+This site is clone using :
+
+- _HTML_
+  (using HTML helped us to create various elements like 'div', 'p', 'img' etc)
+- _CSS_
+  (using CSS we were able to make this web-page colorful and more elegant)
+- _JavaScript_
+  (using js we were able to make our web-page work ex; moving from home page to another page)
+
+## Features
+
+- Get available vehical for transporting for provided pickup and drop locations.
+- filter orders (ex: live orders, completed orders etc.)
+- User wallet displays Balance
+- filter amount all debit / all credit
+- pop-up log-in
+- option to signout
+
+## About
+
+Landing Page:
+
+- Home
+- Packers & Movers
+- Drivers & Partners
+- For Enterprises
+
+page afer filling form on home.html:
+
+- Estimate
+
+Pages user can see after log in on Drivers & Partners:
+
+- User History
+- User Wallet
+
+Dummy User Details:
+- Demo Id: dheerajbisht362@gmail.com
+- Demo Password: 123456
+
+
+
+## Demo
+
+Insert gif or link to demo
+
+![Logo](https://upload.wikimedia.org/wikipedia/commons/e/eb/Porter-logo.png)
+
+## Some Screenshots
+Home page of Porter:
+- Fully Functional Navigation Bar
+- Header (common on all pages)
+- By simply clicking on the name of page you can head to that page
+- Fill-up the form to get estimate
+
+![App Screenshot](./images/0001.jpg)
+
+Home page of Porter:
+- User attractive Info bar
+- click on the vehical of your choice to get detailed information
+- image will change color on clicking 
+
+![App Screenshot](./images/0002.jpg)
+
+Home/Estimate page of Porter:
+- Once user clicks on Get estimate button will get redirected to this page
+- you can see your pickup and Drop location (whatever user insert in the form)
+- To get Porter app for adroid click on playStore image
+
+![App Screenshot](./images/00014.jpg)
+
+Packers & Movers page of Porter:
+- Fully Functional Navigation Bar
+- Header (common on all pages)
+- customer friendly page
+- simple form to get quote
+
+![App Screenshot](./images/0005.jpg)
+
+Packers & Movers page of Porter:
+- Some detail Information to read
+
+![App Screenshot](./images/0006.jpg)
+
+Packers & Movers page of Porter:
+- Some Happy Customer Reviews
+
+![App Screenshot](./images/0007.jpg)
+
+Driver & Partners page of Porter:
+- Fully Functional Navigation Bar
+- Header (common on all pages)
+- Driver Partners page
+
+![App Screenshot](./images/0008.jpg)
+
+Driver & Partners page of Porter:
+- A simpl and user-friendly Login pop-up
+- Demo Id: dheerajbisht362@gmail.com
+- Demo Password: 123456
+
+![App Screenshot](./images/00011.jpg)
+
+User Order History page of Porter:
+- Simple user order history page 
+- User can Filter according to the status of order
+
+![App Screenshot](./images/00012.jpg)
+
+User Wallet page of Porter:
+- Simple user order Wallet page 
+- User can Check Wallet Balance
+- one can Filter transactions (ex: debit/credit/all transactions)
+- one can logout after cclicking on user icon and selecting "signout" option
+
+![App Screenshot](./images/00013.jpg)
+
+Driver & Partners page of Porter:
+- Some eyecatching informative web sections for good customer enggaging
+
+![App Screenshot](./images/0009.jpg)
+
+For Enterprises page of Porter:
+- Fully Functional Navigation Bar
+- Header (common on all pages)
+- For Enterprises page
+
+![App Screenshot](./images/00010.jpg)
+
+Footer for Porter:
+- Footer (common on all pages)
+  
+
+![App Screenshot](./images/0004.jpg)
+
+
+## Thank You!
+This is our very first project Thank you so much for visiting, we would really like to know your reviews and suggestions.
+Thank you...!  
+
+## 🔗 Find Team Porter on Linkdin
+
+1. Dheeraj Bisht
+   (https://github.com/dheerajbisht362)
+
+2. Abhishek Ranjan
+   (https://github.com/AbhishekRanjan8051)
+
+3. Arnavi Gode
+   (https://github.com/arnavigode)
+
+4. Nitish Kumar
+   (https://github.com/Nitish8800)

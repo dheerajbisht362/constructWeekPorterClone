@@ -6,6 +6,7 @@
 }
 .header-wrapper {
 	background-image: linear-gradient(to right, #354df7, #5d0de1);
+
 }
 
 .header-container {
@@ -70,6 +71,7 @@
 	position: absolute;
 	color: white;
 	left: 86%;
+
 }
 
 .number {
@@ -112,6 +114,7 @@
 	margin-left: 39%;
 }
 .link {
+
 	padding: 0 15px;
 	font-size: 15px;
 	font-weight: 600;
@@ -131,6 +134,7 @@
 	color: #212121;
 	text-decoration: none;
 	z-index: 10;
+
 	line-height: 40px;
 }
 .navbar-links a:hover {

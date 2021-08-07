@@ -14,6 +14,7 @@ body {
 }
 .forEnt {
 	/* overflow-y: scroll; */
+
 	display: block;
 	/* scrollbar-width: none; */
 }
@@ -22,6 +23,7 @@ body {
 /* header part */
 .header-wrapper {
 	background-image: linear-gradient(to right, #354df7, #5d0de1);
+
 }
 
 .header-container {
@@ -144,6 +146,7 @@ body {
 .navbar-secondlinks {
 	display: flex;
 	margin-left: 39%;
+
 }
 
 .link1 {

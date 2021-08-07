@@ -71,6 +71,7 @@ Home page of Porter:
 - image will change color on clicking 
 
 ![App Screenshot](./images/0002.jpg)
+<img src="./images/0002.jpg" alt="My cool logo"/>
 
 Home/Estimate page of Porter:
 - Once user clicks on Get estimate button will get redirected to this page

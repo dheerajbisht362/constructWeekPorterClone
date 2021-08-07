@@ -69,7 +69,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	position: absolute;
-	left: 1350px;
+	left: 84%;
 	color: white;
 	font-family: "Titillium Web";
 }
@@ -91,7 +91,7 @@ body {
 	position: absolute;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
 	background-color: white;
-	width: 98.5%;
+	width: 100%;
 	z-index: 10;
 }
 
@@ -130,7 +130,7 @@ body {
 
 .navbar-secondlinks {
 	display: flex;
-	margin-left: 650px;
+	margin-left: 39%;
 }
 
 .popUp {

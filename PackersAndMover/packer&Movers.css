@@ -543,6 +543,7 @@ body {
 }
 .question > p + div {
 	font-size: 16px;
+	margin-left: 10px;
 }
 .question > p {
 	border-top: solid 1px #e2e2e2;

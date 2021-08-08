@@ -251,11 +251,11 @@ var last_question
 
 function toggleElement(id)
 {
+    console.log("124")
     if (last_question != undefined) {
         document.getElementById(last_question).style.display = 'none';
         document.getElementById(last_question + "Col").style.color = 'black';
     }
-    
     if(document.getElementById(id).style.display == 'none')
     {
         document.getElementById(id).style.display = '';

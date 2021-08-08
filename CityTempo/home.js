@@ -190,11 +190,11 @@ function showTransport(n) {
     var i;
     var transports = document.getElementsByClassName("adjust");
     for (i = 0; i < transports.length; i++) {
-       transports[i].className= transports[i].className.replace("on01", "")
+        transports[i].className = transports[i].className.replace("on01", "")
     }
     var triangle = document.getElementsByClassName("vehicleSelector");
     for (i = 0; i < triangle.length; i++) {
-      triangle[i].classList.remove("on03")
+        triangle[i].classList.remove("on03")
     }
     photoChanger(n)
     vechicleChange(n)
@@ -204,11 +204,11 @@ function showTransport(n) {
 }
 function photoChanger(n) {
     let img = document.getElementById("imgPosition")
-    if(n==1) img.src = "images/tata_ace.png"
-    if (n == 2) img.src = "images/tata_407.png"
-    if (n == 3) img.src = "images/3_wheeler.png"
-    if (n == 4) img.src = "images/ace_helper.png"
-    if (n == 5) img.src = "images/3_wheeler_helper.png"  
+    if(n==1) img.src = "../images/tata_ace.png"
+    if (n == 2) img.src = "../images/tata_407.png"
+    if (n == 3) img.src = "../images/3_wheeler.png"
+    if (n == 4) img.src = "../images/ace_helper.png"
+    if (n == 5) img.src = "../images/3_wheeler_helper.png"  
 }
 function vechicleChange(n) {
     let text = document.getElementById("t03");

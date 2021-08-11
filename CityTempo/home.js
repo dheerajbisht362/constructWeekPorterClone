@@ -202,11 +202,11 @@ function showTransport(n) {
 }
 function photoChanger(n) {
     let img = document.getElementById("imgPosition")
-    if(n==1) img.src = "../images/tata_ace.png"
-    if (n == 2) img.src = "../images/tata_407.png"
-    if (n == 3) img.src = "../images/3_wheeler.png"
-    if (n == 4) img.src = "../images/ace_helper.png"
-    if (n == 5) img.src = "../images/3_wheeler_helper.png"  
+    if(n==1) img.src = "./images/tata_ace.png"
+    if (n == 2) img.src = "./images/tata_407.png"
+    if (n == 3) img.src = "./images/3_wheeler.png"
+    if (n == 4) img.src = "./images/ace_helper.png"
+    if (n == 5) img.src = "./images/3_wheeler_helper.png"  
 }
 function vechicleChange(n) {
     let text = document.getElementById("t03");

@@ -569,19 +569,19 @@ input[type="submit"] {
 	background-position: 0 -179px;
 }
 .bg01 {
-	background-image: url(../images/Tata_ace.jpg);
+	background-image: url(./images/Tata_ace.jpg);
 }
 .bg02 {
-	background-image: url(../images/tata_407.jpg);
+	background-image: url(./images/tata_407.jpg);
 }
 .bg03 {
-	background-image: url(../images/t_3_wheeler.jpg);
+	background-image: url(./images/t_3_wheeler.jpg);
 }
 .bg04 {
-	background-image: url(../images/t_ace_helper.jpg);
+	background-image: url(./images/t_ace_helper.jpg);
 }
 .bg05 {
-	background-image: url(../images/t_3wheeler_helper.jpg);
+	background-image: url(./images/t_3wheeler_helper.jpg);
 }
 .vehiclebox {
 	display: flex;
@@ -806,7 +806,7 @@ a > i {
 
 /* inline CSS */
 #inlineh001 {
-	background-image: url(../images/1.png);
+	background-image: url(./images/1.png);
 }
 #inlineh002 {
 	cursor: pointer;

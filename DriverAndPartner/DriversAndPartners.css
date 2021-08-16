@@ -792,6 +792,16 @@ a > i {
 	color: #212121;
 }
 
+.dis_none {
+	display: none;
+}
+.colBlue {
+	color: blue !important;
+}
+.bt-0 {
+	border-top: 0px;
+}
+
 /* Inline CSS */
 
 #inlinedp001 {

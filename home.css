@@ -15,7 +15,7 @@
 	align-items: center;
 	justify-content: space-between;
 	z-index: 10;
-	height: 66px;
+	height: 60px;
 }
 
 .logo-container {
@@ -73,7 +73,7 @@
 }
 
 .number {
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	font-weight: 700;
 }
 .description {
@@ -805,6 +805,15 @@ a > i {
 	margin-top: 12px;
 }
 
+.dis_none {
+	display: none;
+}
+.colBlue {
+	color: blue !important;
+}
+.bt-0 {
+	border-top: 0px;
+}
 /* inline CSS */
 #inlineh001 {
 	background-image: url(./images/1.png);

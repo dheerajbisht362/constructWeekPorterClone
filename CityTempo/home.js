@@ -48,7 +48,7 @@ function proceedToEstimate() {
     localStorage.setItem("pickUpLoc", pickUpLocation);
     localStorage.setItem("dropOffLoc", dropOffLocation);
 
-    window.location.href = "estimatePg.html"
+    window.location.href = "./CityTempo/estimatePg.html"
 }
 
 function autocomplete(inp, arr) {
@@ -202,11 +202,11 @@ function showTransport(n) {
 }
 function photoChanger(n) {
     let img = document.getElementById("imgPosition")
-    if(n==1) img.src = "../images/tata_ace.png"
-    if (n == 2) img.src = "../images/tata_407.png"
-    if (n == 3) img.src = "../images/3_wheeler.png"
-    if (n == 4) img.src = "../images/ace_helper.png"
-    if (n == 5) img.src = "../images/3_wheeler_helper.png"  
+    if(n==1) img.src = "./images/tata_ace.png"
+    if (n == 2) img.src = "./images/tata_407.png"
+    if (n == 3) img.src = "./images/3_wheeler.png"
+    if (n == 4) img.src = "./images/ace_helper.png"
+    if (n == 5) img.src = "./images/3_wheeler_helper.png"  
 }
 function vechicleChange(n) {
     let text = document.getElementById("t03");
@@ -249,20 +249,21 @@ var last_question
 
 function toggleElement(id)
 {
-    console.log("124")
     if (last_question != undefined) {
-        document.getElementById(last_question).style.display = 'none';
-        document.getElementById(last_question + "Col").style.color = 'black';
+        console.log(document.getElementById(id))
+        document.getElementById(last_question).classList.toggle("dis_none");
+        document.getElementById(last_question+"Col").classList.toggle("colBlue");
     }
     if(document.getElementById(id).style.display == 'none')
     {
-        document.getElementById(id).style.display = '';
+        element.classList.toggle("dis_none");
+        console.log(id)
         document.getElementById(id+ "Col").style.color = 'blue';
     }
     else
     {
-        document.getElementById(id).style.display = 'none';
-        document.getElementById(id + "Col").style.color = 'black';
+        document.getElementById(id).classList.toggle("dis_none");
+        document.getElementById(id+"Col").classList.toggle("colBlue");
     }
     last_question= id;
 }

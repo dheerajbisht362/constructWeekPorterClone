@@ -55,21 +55,24 @@ var last_question
 function toggleElement(id)
 {
     if (last_question != undefined) {
-        document.getElementById(last_question).style.display = 'none';
-        document.getElementById(last_question + "Col").style.color = 'black';
+        console.log(document.getElementById(id))
+        document.getElementById(last_question).classList.toggle("dis_none");
+        document.getElementById(last_question+"Col").classList.toggle("colBlue");
     }
     if(document.getElementById(id).style.display == 'none')
     {
-        document.getElementById(id).style.display = '';
+        element.classList.toggle("dis_none");
+        console.log(id)
         document.getElementById(id+ "Col").style.color = 'blue';
     }
     else
     {
-        document.getElementById(id).style.display = 'none';
-        document.getElementById(id + "Col").style.color = 'black';
+        document.getElementById(id).classList.toggle("dis_none");
+        document.getElementById(id+"Col").classList.toggle("colBlue");
     }
     last_question= id;
 }
+
 
 function sumbitForm(){
   document.getElementById("form01").style.display = "none"

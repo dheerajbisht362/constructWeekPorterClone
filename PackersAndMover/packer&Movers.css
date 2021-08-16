@@ -5,7 +5,6 @@ body {
 }
 .header-wrapper {
 	background-image: linear-gradient(to right, #2961fe, #5d0de1);
-	width: 99.5%;
 }
 
 .header-container {
@@ -173,8 +172,6 @@ body {
 /* full page styling */
 #main-container {
 	background-color: RGB(255, 255, 255);
-	height: 4500px;
-	width: 99.5%;
 	/* margin-top: 35px; */
 	/* margin-left: 0.5%; */
 }
@@ -616,6 +613,16 @@ a > i {
 
 .fa fa-linkedin fa-2x {
 	color: white;
+}
+
+.dis_none {
+	display: none;
+}
+.colBlue {
+	color: blue !important;
+}
+.bt-0 {
+	border-top: 0px;
 }
 
 /* inlinecss */
